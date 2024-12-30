@@ -21,3 +21,7 @@ button.addEventListener('click',()=>{
     const randomIndex = Math.floor(Math.random()*quotes.length);
     quoteElement.textContent= quotes[randomIndex];
 })
+
+function add(){
+    alert("Hello");
+}
